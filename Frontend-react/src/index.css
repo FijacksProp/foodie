@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.tittle {
+  @apply text-3xl md:text-4xl mb-10 lg:text-5xl font-extrabold text-gray-900 dark:text-white
+}
+.span {
+  @apply text-orange-600 dark:text-orange-500
+}
+
+.btn {
+  @apply bg-orange-600 dark:bg-color-yellow text-color-yellow dark:text-color-brown hover:from-green-600 hover:to-orange-700 font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105;
+}
